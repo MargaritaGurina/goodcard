@@ -1,0 +1,106 @@
+.features {
+  background: #f4f4f4;
+  padding-top: 49px; }
+
+.numbers {
+  text-align: center;
+  padding-bottom: 37px; }
+
+.number__title {
+  margin-bottom: 10px;
+  font-family: "My-Roboto-Black";
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fd9c28; }
+  .number__title span {
+    font-size: 36px; }
+
+.number__subtitle {
+  font-family: "My-Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #373737; }
+
+.feat-items {
+  font-family: "My-Roboto"; }
+
+.feat-item {
+  margin-bottom: 30px;
+  background: #ffffff;
+  padding: 32px 15px; }
+  .feat-item__img, .feat-item-text {
+    display: inline-block;
+    vertical-align: middle; }
+  .feat-item__img {
+    margin-right: 4px;
+    width: 52px;
+    height: 55px; }
+  .feat-item-text {
+    width: 78%;
+    margin-left: -4px; }
+  .feat-item__title {
+    font-size: 15px;
+    font-weight: 700; }
+  .feat-item__subtitle {
+    font-size: 14px;
+    font-weight: 300; }
+
+.products {
+  padding-top: 57px;
+  padding-bottom: 38px;
+  text-align: center;
+  font-family: "My-Roboto"; }
+
+.heading {
+  margin-bottom: 12px;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #373737; }
+
+.product-item {
+  margin-bottom: 35px; }
+  .product-item__img {
+    margin-bottom: 5px;
+    height: 280px; }
+    .product-item__img img {
+      width: 400px; }
+  .product-item__description {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 19px; }
+  .product-item__button {
+    border: 1px solid transparent; }
+
+.customers {
+  text-align: center;
+  padding-bottom: 38px; }
+
+.head-customers {
+  margin-bottom: 43px; }
+
+.customer-item {
+  margin-bottom: 33px;
+  width: 212px;
+  height: 130px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+  .customer-item:hover {
+    -webkit-filter: none;
+    filter: none; }
+  .customer-item::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  .customer-item__img {
+    margin-left: -4px;
+    vertical-align: middle;
+    display: inline-block; }
+  .customer-item__img img {
+    max-height: 100%; }
